@@ -1,6 +1,6 @@
 <?php
 $servername = "localhost";
-$database = "testeedital";
+$database = "trabweb";
 $username = "root";
 $password = "";
 

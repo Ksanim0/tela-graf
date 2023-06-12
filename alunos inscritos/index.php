@@ -10,6 +10,7 @@ include "connectBD.php";
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>EEEP Manoel Mano | Login</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="btn-style.css">
     <link rel="stylesheet" href="cssed.css">
     
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
@@ -26,12 +27,12 @@ include "connectBD.php";
                     <div class="col-0">
                         <h3>alunos inscritos por curso</h3>
 
- <div class="links-btn">
-        <a class="fcc-btn" href="https://www.freecodecamp.org/">Inicio</a>
-        <a class="fcc-btn" href="https://www.freecodecamp.org/">Cursos</a>
-        <a class="fcc-btn" href="https://www.freecodecamp.org/">Cadastros</a>
-        <a class="fcc-btn" href="https://www.freecodecamp.org/">Relatorios</a>
-    </div> 
+                        <div class="links-btn">
+                        <a class="fcc-btn" href="#">Inicio</a>
+                        <a class="fcc-btn" href="#">Cursos</a>
+                        <a class="fcc-btn" href="#">Cadastros</a>
+                        <a class="fcc-btn" href="#">Relatorios</a>
+                        </div>
                 
                     </div>
                 </div>
@@ -85,7 +86,10 @@ include "connectBD.php";
     </div>
         </div>
      
+
+        
     
         <footer><img src="./ondas-governo-rodape.png" alt=""></footer>
+
 </body>
 </html>
